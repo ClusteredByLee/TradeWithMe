@@ -1,0 +1,38 @@
+
+body {
+  font-family: Arial, sans-serif;
+  background: #0f172a;
+  color: #f8fafc;
+  padding: 20px;
+}
+h1 {
+  text-align: center;
+}
+canvas {
+  max-width: 100%;
+  background: white;
+  border-radius: 10px;
+}
+#signals {
+  margin-top: 20px;
+  font-size: 20px;
+}
+.alert {
+  background-color: #facc15;
+  color: #111827;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  font-weight: bold;
+}
+.strong {
+  background-color: #ef4444;
+  color: white;
+  font-size: 24px;
+  animation: pulse 1s infinite;
+}
+@keyframes pulse {
+  0% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+  100% { transform: scale(1); }
+}
